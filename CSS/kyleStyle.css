@@ -1,7 +1,7 @@
 /* CSS */
 
 body {
-    background-color: #E5E5E5;
+    background-color: #A3171E;
 }
 
 .shadow {
@@ -56,7 +56,13 @@ body {
     position:relative;
     margin-left:auto;
     margin-right:auto;
-    top:-16px;
-    width:900px;
-    background-color:#FFFFFF;
+    /*top:-16px;*/
+    top:40px;
+    width:439px;
+    /*background-color:#FFFFFF;*/
+    background-color:#A3171E;
+    text-align:center;
+    color:#FFFFFF;
+    font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
+    font-weight:lighter;
 }
