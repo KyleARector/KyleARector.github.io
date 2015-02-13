@@ -1,4 +1,4 @@
 KyleARector.github.io
 =====================
 
-Empty for now...
+Personal website for the display of contact information and projects.
