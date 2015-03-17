@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-<img src="http://www.gravatar.com/avatar/10f112c27a538601fcdefc994da16fa3?s=250" alt="profile" class="profile" />
+<img src="images\large.jpg" alt="profile" class="profile" />
 
 My name is Matt McCormick and I am a Program Manager at Microsoft and a Computer Science graduate from Purdue University. During the day, I'm a Product Owner for the Skype team. At night, I'm a hacker, chef, gardener, dog lover, beer connoisseur, and a bunch of other things. I'm married to a beautiful woman and we live together in Seattle with our crazy dog. She writes about our life <a href="http://libbyandmatt.com" target="_blank">here</a>. I often tweet about my adventures on <a href="https://www.twitter.com/mbmccormick" target="_blank">Twitter</a> and I occasionally write nerdy things on this blog.
 
