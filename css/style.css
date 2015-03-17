@@ -293,7 +293,7 @@ body, html {
 }
 
 .about {
-    background: #A3171E;
+    background: #A3171E; /*Changes background of about blurb portion*/
     border-bottom: 1px solid #000;
     border-top: 1px solid #333;
 }
@@ -372,13 +372,13 @@ body, html {
 
 a {
     text-decoration: none;
-    color: #A3171E;
-    border-bottom: 1px solid #08c;
+    color: #000;
+    border-bottom: 1px solid #000;
 }
 
     a:hover, a:focus, a:active {
-        color: #000;
-        border-color: #000;
+        color: #BFBFBF;
+        border-color: #BFBFBF;
         outline: 0;
     }
 
@@ -398,11 +398,11 @@ a {
 
 h1 a, h2 a, h3 a, h4 a {
     border: 0;
-    color: #A3171E;
+    color: #000;
 }
 
     h1 a:hover, h1 a:focus, h1 a:active, h2 a:hover, h2 a:focus, h2 a:active, h3 a:hover, h3 a:focus, h3 a:active, h4 a:hover, h4 a:focus, h4 a:active {
-        color: #000;
+        color: #BFBFBF;
     }
 
 [role=link] {

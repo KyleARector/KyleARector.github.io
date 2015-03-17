@@ -69,7 +69,7 @@ a[href^="/"]:after {
 }
 
 [role=banner], [role=banner] a {
-    color: #FFF;
+    color: #000;
 }
 
 [role=navigation], [role=contentinfo], .about, .posts, .fb_iframe_widget iframe {
