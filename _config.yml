@@ -1,10 +1,10 @@
-url: "http://mbmccormick.com"
-title: Matt McCormick
-description: "I'm a Program Manager at Microsoft and a Computer Science graduate from Purdue University. I live in Seattle with my wife and our dog and I'm always hacking away on something."
+url: "http://kylearector.com"
+title: Kyle Rector
+description: "I am a mechanical designer and developer, working at Gulfstream in Savannah. My fiance and I are proud Purdue University alumni, and together we are raising a wonderful mutt, Faye, and a Roomba named Chappie. I am extremely driven to improve CAD UX by any means possible, and am a nut for anything in the IoT."
 language: en-us
 
-author: Matt McCormick
-email: matt@mbmccormick.com
+author: Kyle Rector 
+email: kylearector@outlook.com	
 
 permalink: /:year/:month/:title
 
@@ -19,13 +19,13 @@ exclude:
 
 google:
   analytics:
-    profile: 'UA-6872595-6'
+    profile: 'UA-59815038-1'
 
 disqus:
-  shortname: mbmccormick
+  shortname: kylearector
 
 twitter:
-  username: mbmccormick
+  username: kylearector
 
 linkedin:
-  username: mbmccorm
+  username: kylearector
