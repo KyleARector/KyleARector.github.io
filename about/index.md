@@ -3,14 +3,12 @@ layout: page
 title: About
 ---
 
-<img src="images\large.jpg" alt="profile" class="profile" />
+<img src="..\images\large.jpg" alt="profile" class="profile" />
 
-My name is Matt McCormick and I am a Program Manager at Microsoft and a Computer Science graduate from Purdue University. During the day, I'm a Product Owner for the Skype team. At night, I'm a hacker, chef, gardener, dog lover, beer connoisseur, and a bunch of other things. I'm married to a beautiful woman and we live together in Seattle with our crazy dog. She writes about our life <a href="http://libbyandmatt.com" target="_blank">here</a>. I often tweet about my adventures on <a href="https://www.twitter.com/mbmccormick" target="_blank">Twitter</a> and I occasionally write nerdy things on this blog.
+My name is Kyle Rector, and I am a mechanical designer and KBE modeler at Gulfstream Aerospace. I graduated from Purdue University in 2013, with a degree in Computer Graphics Technology and a minor in Mechanical Engineering. At work or at home, I have a "maker" mentality; I absolutely love to build innovative solutions, whether in CAD or in code. I am engaged to the love of my life, and together we are raising a mutt named Faye, along with a Roomba we have affectionately dubbed "Chappie."
 
-You can take a look at my source projects on <a href="https://www.github.com/mbmccormick" target="_blank">GitHub</a>. If you see something you like, enjoyed one of my blog posts, or use one of my applications, share the love and <a href="/donate">buy me a beer</a> on PayPal!
+You can take a look at the code behind some of my projects on <a href="https://www.github.com/kylearector" target="_blank">GitHub</a>, and I recently joined the <a href="http://www.onshape.com/" target="_blank">Onshape</a> community for web-based collaborative CAD.
 
-Want to get in touch? Send me an email at <a href="mailto:matt@mbmccormick.com">matt@mbmccormick.com</a>.
-
-Disclaimer: The opinions expressed on this website are my own personal opinions and do not represent my employer's view in any way.
+Please Note: All opinions on this website are my own personal opinions, and do not represent my employer's view in any way.
 
 <br />
