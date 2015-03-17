@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-<img src="..\images\large.jpg" alt="profile" class="profile" />
+<img src="..\images\large.jpg" alt="profile" class="profile" width="250" />
 
 My name is Kyle Rector, and I am a mechanical designer and KBE modeler at Gulfstream Aerospace. I graduated from Purdue University in 2013, with a degree in Computer Graphics Technology and a minor in Mechanical Engineering. At work or at home, I have a "maker" mentality; I absolutely love to build innovative solutions, whether in CAD or in code. I am engaged to the love of my life, and together we are raising a mutt named Faye, along with a Roomba we have affectionately dubbed "Chappie."
 
