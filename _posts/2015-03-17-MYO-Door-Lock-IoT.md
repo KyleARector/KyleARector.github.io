@@ -21,7 +21,7 @@ arduino = gcnew SerialPort(portName, baudRate);<br/>
 <br/><br/>
 For a demo of my first version, check out the video below.
 <br/><br/>
-<iframe src="https://www.youtube.com/embed/56N3QiX7IQU" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/56N3QiX7IQU" frameborder="0" allowfullscreen></iframe>
 <br/><br/>
 All of my code and 3D models are available <a href="https://github.com/KyleARector/MYO_Door_Jedi">here</a>.
 </p>
