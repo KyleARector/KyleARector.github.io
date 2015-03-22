@@ -9,4 +9,6 @@ categories: []
 <br/><br/>
 The interpretation my colleagues and I share is that this issue was not intended by Dassault, but occurred as a necessity of how the software was written. If it is an intentional feature, I would like to apologize ahead of time. 
 <br/><br/>
+First, we need to look at how planes typically work in CATIA. Planes are infinite. They are only bounded by the size of the 3D workspace set by the program. In CATIA, the default is 20 cubic kilometers. Planes are also wireframe geometry, meaning that they have no physical representation in the part. As such, these pieces of geometry should have no center of gravity, nor any physical properties that can drive weights, inertia measures, or anything along those lines. Right? Wrong.
+<br/><br/>
 </p>
