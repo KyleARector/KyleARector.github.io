@@ -6,7 +6,7 @@ comments: true
 categories: []
 ---
 <p>
-In the last week or so, I have been privileged enough to request and receive a beta invitation to use a browser and mobile app based CAD software called <a href=http://www.onshape.com> Onshape.</a> This software is intended to deliver the next generation CAD experience, offering a true modeling environment (not just model viewing) on nearly any platform, as well as real time virtual collaboration and very granular revision control. Being very interested in advancing the development of CAD user experience, I am putting Onshape through its paces. 
+In the last week or so, I have been privileged enough to request and receive a beta invitation to use a browser and mobile app based CAD software called <a href="http://www.onshape.com"> Onshape.</a> This software is intended to deliver the next generation CAD experience, offering a true modeling environment (not just model viewing) on nearly any platform, as well as real time virtual collaboration and very granular revision control. Being very interested in advancing the development of CAD user experience, I am putting Onshape through its paces. 
 <br/><br/>
 In my current position, my mentor and I work to implement Knowledge Based Engineering (KBE) practices in the PLM environment. KBE is an umbrella term which covers modeling best practices from avoidance of B-Rep to morph-able modeling techniques. For my first test, I was concerned with determining how Onshape handles the normal directions of lines, planes, curves, and surfaces. 
 <br/><br/>
