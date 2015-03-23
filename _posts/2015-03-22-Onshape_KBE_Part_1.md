@@ -14,7 +14,7 @@ My scenario is simple: starting with an empty part, build a new plane by offsett
 <br/><br/>
 <img src="/images/2015/kbe_onshape_1.jpg" alt="img1" />
 <br/><br/>
-The next step involves using the Opposite Direction command within the plane creation dialog for Plane 1. In this manner, my created plan flips to the opposite direction, maintaining the 10 inch offset. 
+The next step involves using the Opposite Direction command within the plane creation dialog for Plane 1. In this manner, my created plane flips to the opposite direction, maintaining the 10 inch offset. 
 <br/><br/>
 <img src="/images/2015/kbe_onshape_2.jpg" alt="img2" />
 <br/><br/>
