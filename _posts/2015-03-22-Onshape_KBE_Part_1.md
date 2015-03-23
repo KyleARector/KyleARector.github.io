@@ -12,6 +12,8 @@ In my current position, my mentor and I work to implement Knowledge Based Engine
 <br/><br/>
 My scenario is simple: starting with an empty part, build a new plane by offsetting one of the 3 datum planes. For my example, I chose the Right plane, seen below. The plane that I created naturally offsets in the normal direction of the parent (Right) plane. This first operation allows me to determine that the normal direction of the parent is toward the left side of the screen, or positive X in the 3D coordinates of the part. 
 <br/><br/>
+<img src="..\images\2015\kbe_onshape_1.jpg" />
+<br/><br/>
 The next step involves using the Opposite Direction command within the plane creation dialog for Plane 1. In this manner, my created plan flips to the opposite direction, maintaining the 10 inch offset. 
 <br/><br/>
 This is where the fun begins. In certain CAD systems (Looking at you, CATIA), a second, invisible operation takes place when the user selects the Opposite Direction command. The parent plane, in my example the Right plane, is inverted, and then the child plane is created off of this inverted plane. This means that the child plane will actually have a normal direction OPPOSITE of the parent, breaking the inheritance structure.
