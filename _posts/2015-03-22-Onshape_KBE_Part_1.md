@@ -18,7 +18,7 @@ This is where the fun begins. In certain CAD systems (Looking at you, CATIA), a 
 <br/><br/>
 You might be wondering to yourself, why should I care? What does it matter if the normal direction is in the opposite direction, I can just manage that later, right? As seen above, the normal of a plane or surface determines the direction that child geometries will be offset in, or what side of a trim operation to keep. In the world of KBE, not controlling normals is a sin. In order to create a part that will reliably change configurations to a variety of inputs, normal directions must be considered. For example, if a plane were an input to a part, and the second configuration of that part consumed a plane with the OPPOSITE normal direction, the results any child operations (splits, anyone?) will be reversed. That means rework time. 
 <br/><br/>
-What does this have to do with Onshape? Luckily those developing this marvelous CAD package had the foresight to not insert a random “invert” command when the user wished to offset a plane in the opposite direction. As such, the normal of my Plane 1 is in the same direction as the parent, Right plane. 
+What does this have to do with Onshape? Luckily those developing this marvelous CAD package had the foresight to not insert a random invert command when the user wished to offset a plane in the opposite direction. As such, the normal of my Plane 1 is in the same direction as the parent, Right plane. 
 <br/><br/>
 This concludes this particular round of investigation, but I greatly look forward to seeing what else Onshape has to offer in the KBE space.
 </p>
