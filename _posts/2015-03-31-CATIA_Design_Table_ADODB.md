@@ -19,10 +19,10 @@ Dim dBConn As Variant
 Set dBConn = CreateObject("ADODB.Connection")
 Dim recordSet As Variant
 Set recordSet = CreateObject("ADODB.Recordset")
-filePath = "C:\Users\u317975\Desktop\Data.xlsx"
-dBString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" & filePath & ";Extended Properties='Excel 12.0 Xml;HDR=YES';" 
+filePath =  &quot;C:\Users\Kyle\Desktop\Data.xlsx &quot;
+dBString =  &quot;Provider=Microsoft.ACE.OLEDB.12.0;Data Source= &quot; & filePath &  &quot;;Extended Properties='Excel 12.0 Xml;HDR=YES'; &quot;
 dBConn.Open dBString
-query = "CREATE TABLE Sheet2 ( Column1 int , Column2 varchar(255) , Column3 varchar(255))"
+query =  &quot;CREATE TABLE Sheet2 ( Column1 int , Column2 varchar(255) , Column3 varchar(255)) &quot;
 recordSet.Open query, dBConn
 dBConn.Close
 </code>
