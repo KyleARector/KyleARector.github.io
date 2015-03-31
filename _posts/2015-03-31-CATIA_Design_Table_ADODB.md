@@ -14,16 +14,16 @@ Out of the box, CATIA V5 has decent design table functionality. By selecting an 
 <br/><br/>
 This problem can be avoided by treating the Excel file like a database, and accessing it via CATScript and an ADODB connection. The code below demonstrates the creation of a table (sheet) in the database (spreadsheet):
 <br/><br/>
-<code>Dim query As String, filePath As String, dBString As String 
-Dim dBConn As Variant
-Set dBConn = CreateObject("ADODB.Connection")
-Dim recordSet As Variant
-Set recordSet = CreateObject("ADODB.Recordset")
-filePath =  &quot;C:\Users\Kyle\Desktop\Data.xlsx &quot;
-dBString =  &quot;Provider=Microsoft.ACE.OLEDB.12.0;Data Source= &quot; & filePath &  &quot;;Extended Properties='Excel 12.0 Xml;HDR=YES'; &quot;
-dBConn.Open dBString
-query =  &quot;CREATE TABLE Sheet2 ( Column1 int , Column2 varchar(255) , Column3 varchar(255)) &quot;
-recordSet.Open query, dBConn
-dBConn.Close
+<code>Dim query As String, filePath As String, dBString As String <br/>
+Dim dBConn As Variant<br/>
+Set dBConn = CreateObject(&quot;ADODB.Connection&quot;)<br/>
+Dim recordSet As Variant<br/>
+Set recordSet = CreateObject(&quot;ADODB.Recordset&quot;)<br/>
+filePath =  &quot;C:\Users\Kyle\Desktop\Data.xlsx &quot;<br/>
+dBString =  &quot;Provider=Microsoft.ACE.OLEDB.12.0;Data Source= &quot; & filePath &  &quot;;Extended Properties='Excel 12.0 Xml;HDR=YES'; &quot;<br/>
+dBConn.Open dBString<br/>
+query =  &quot;CREATE TABLE Sheet2 ( Column1 int , Column2 varchar(255) , Column3 varchar(255)) &quot;<br/>
+recordSet.Open query, dBConn<br/>
+dBConn.Close<br/>
 </code>
 </p>
