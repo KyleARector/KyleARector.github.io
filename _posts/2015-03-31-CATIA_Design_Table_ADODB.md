@@ -19,11 +19,24 @@ Dim dBConn As Variant<br/>
 Set dBConn = CreateObject(&quot;ADODB.Connection&quot;)<br/>
 Dim recordSet As Variant<br/>
 Set recordSet = CreateObject(&quot;ADODB.Recordset&quot;)<br/>
-filePath =  &quot;C:\Users\Kyle\Desktop\Data.xlsx &quot;<br/>
-dBString =  &quot;Provider=Microsoft.ACE.OLEDB.12.0;Data Source= &quot; & filePath &  &quot;;Extended Properties='Excel 12.0 Xml;HDR=YES'; &quot;<br/>
+filePath =  &quot;C:\Users\Kyle\Desktop\Data.xlsx&quot;<br/>
+dBString =  &quot;Provider=Microsoft.ACE.OLEDB.12.0;Data Source= &quot; & filePath &  &quot;;Extended Properties='Excel 12.0 Xml;HDR=YES';&quot;<br/>
 dBConn.Open dBString<br/>
 query =  &quot;CREATE TABLE Sheet2 ( Column1 int , Column2 varchar(255) , Column3 varchar(255)) &quot;<br/>
 recordSet.Open query, dBConn<br/>
 dBConn.Close<br/>
 </code>
+<br/><br/>
+Notice that the ADODB Connection and ADOSB Recorset must be declared as variant type. Unfortunately, CATScript does not allow for the inclusion of references. On the plus side, this method improves part portability. If the desired result is writing data to a table, a query like the following may be used:
+<br/><br/>
+<code>query = &quot;INSERT INTO Sheet2 (Column1, Column2, Column3) VALUES (1, 'HA' , 'Test2')&quot;
+</code>
+<br/><br/>
+Finally, data may be read in a similar manner as the above methods, but an array will need to be declared in order to hold the rows returned from the query. The additional lines will need to be added as such:
+<code>Dim rowArray<br/>
+rowArray = recordSet.GetRows<br/>
+recordSet.Close<br/>
+</code>
+<br/><br/>
+This method is much more speedy, and can even be used if the Excel file is open. The one major caveat is that there is no reliable method for ensure the part requires an update if data in the spreasheet changes oustide of CATIA.
 </p>
