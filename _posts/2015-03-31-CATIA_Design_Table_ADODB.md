@@ -27,7 +27,7 @@ recordSet.Open query, dBConn<br/>
 dBConn.Close
 </code>
 <br/><br/>
-Notice that the ADODB Connection and ADOSB Recorset must be declared as variant type. Unfortunately, CATScript does not allow for the inclusion of references. On the plus side, this method improves part portability. If the desired result is writing data to a table, a query like the following may be used:
+Notice that the ADODB Connection and ADODB Recorset must be declared as variant type. Unfortunately, CATScript does not allow for the inclusion of references. On the plus side, this method improves part portability. If the desired result is writing data to a table, a query like the following may be used:
 <br/><br/>
 <code>query = &quot;INSERT INTO Sheet2 (Column1, Column2, Column3) VALUES (1, 'HA' , 'Test2')&quot;
 </code>
