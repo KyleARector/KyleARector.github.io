@@ -2,7 +2,7 @@
 layout: post
 title: Gesture Controlled Door Lock
 date: 2015-03-17 19:30
-comments: true
+comments: false
 categories: []
 ---
 <p>The Internet of Things. Colloquially known as the "IoT," the term refers to the collection of internet or network enabled devices that is prevalent in the modern world. One might argue that every thing under the sun need not be connected to most other things, but I am loving the way companies such as GE and Belkin are creating basic home devices that can be controlled from anywhere. That being said, do we really need a dog feeder controlled by <a href="http://www.instructables.com/id/Twitter-Controlled-Pet-Feeder/">tweets?</a>
