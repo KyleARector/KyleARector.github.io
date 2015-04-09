@@ -2,7 +2,7 @@
 layout: post
 title: Using CATScript and ADODB for Design Tables
 date: 2015-03-31 00:00
-comments: true
+comments: false
 categories: []
 ---
 <p>
