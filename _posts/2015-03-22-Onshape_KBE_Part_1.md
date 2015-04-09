@@ -2,7 +2,7 @@
 layout: post
 title: Onshape and KBE - Part 1 - Normal Control
 date: 2015-03-22 00:00
-comments: true
+comments: false
 categories: []
 ---
 <p>
