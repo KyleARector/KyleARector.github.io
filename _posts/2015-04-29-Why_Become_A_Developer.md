@@ -9,14 +9,9 @@ categories: []
 Recently, I made the choice to pursue a career in software development. I was fortunate enough to be able to make this transition within my company, and even in my department. While this may not sound like a profound change, given my interests and occasional professional activities, it was actually a huge decision. I came to a junction where I had to decide if I was to stick with my original career plan of mechanical design, or to leave my comfort zone to pursue a passion. 
 As with any life change, there were a number of considerations (worries) that I needed to address.
 <br/> <br/>
-<ul>
-	<li>Will I have to leave to get a new job?</li>
-	<li>Will I be able to do this every day, for X years?</li>
-	<li>Do I have good enough reason to do it?</li>
-	<li>Do I really even have the chops to do this?</li>
-</ul>
+
 <br/> <br/>
-For those who are unaware, I suffer from a ridiculous amount of anxiety, but I managed to come by each of these issues in turn, and I am incredibly glad I did. Here is how.
+I suffer from a ridiculous amount of anxiety, but I managed to come by each of these issues in turn, and I am incredibly glad I did. Here is how.
 <br/> <br/>
 First, would I need to leave Gulfstream to become a developer, professionally anyway? As I mentioned before, this transition was able to be conducted within my department. I come from an analyst role; I gathered requirements from users, and worked with developers to create and implement the solutions in our CAD software, and occasionally in our PDM. 
 While I had joked about my desire to be a professional programmer with my colleagues, I had never seriously posed the idea to my superiors. When it came time for yearly evaluations, I brought it up, and it was fortuitous that I did. We were in dire need of developers, and I was experienced in just the right language. I am unaware if I will be with this employer for my entire career, but I will always be grateful for this opportunity. 
