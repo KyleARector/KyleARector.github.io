@@ -27,4 +27,5 @@ I love being able to use a microcontroller and some code to actually interact wi
 That brings us to the final question. The big one. The one that keeps anxiety ridden twenty-somethings like myself up at night. Can I do this? Am I the right person? Well, yes and no. Even if you do not immediately believe it, you have to tell yourself that. I am certainly not the best developer in the world. Not even close. Take a look at my GitHub page. There may be some gems, but overall, I am still learning. In my new profession, it pays to always be learning. I am surrounded by great resources and friends to help me on this journey, and while I am not completely comfortable yet, I know I can fill the role out well, and keep learning still. Does anyone really fit the complete job description on day one?
 <br/> <br/>
 TLDR;<br/> 
+I am a professional developer now. I am still learning the ropes, but I can’t wait to see what the future holds! Ps, someone please teach me ASP, ASAP.
 </p>
