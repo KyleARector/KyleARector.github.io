@@ -15,7 +15,7 @@ In CATIA V5 (Up to at least V5-6R2012), one may create a center of gravity on a 
 <br/><br/>
 <img src="/images/2015/catia_planes_1.jpg" alt="img1" />
 <br/><br/>
-The COG will appear as a point directly in the center of the graphical representation of the plane (pictures to come). Normally, this would not be a problem, but when a system of one or more planes is created, the COG of the system will be between the two representations of the planes. That is to say, the little square on screen that represents the plane actually has mass properties that are inaccessible to the user. The mass attributed to the graphical representation of the infinite plane pulls the center of gravity away from where it really should be, if in fact one should be able to generate a COG on an infinite sheet. As mentioned above, this may just be a matter or programmatical convenience or overlooked issue by Dassault.
+The COG will appear as a point directly in the center of the graphical representation of the plane. Normally, this would not be a problem, but when a system of one or more planes is created, the COG of the system will be between the two representations of the planes. That is to say, the little square on screen that represents the plane actually has mass properties that are inaccessible to the user. The mass attributed to the graphical representation of the infinite plane pulls the center of gravity away from where it really should be, if in fact one should be able to generate a COG on an infinite sheet. As mentioned above, this may just be a matter or programmatical convenience or overlooked issue by Dassault.
 <br/><br/>
 <img src="/images/2015/catia_planes_2.jpg" alt="img2" />
 <br/><br/>
