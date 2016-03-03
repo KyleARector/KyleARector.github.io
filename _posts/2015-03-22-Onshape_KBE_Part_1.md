@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Onshape and KBE - Part 1 - Normal Control
+title: Onshape and KBE - Normal Control
 date: 2015-03-22 00:00
 comments: false
 categories: []
