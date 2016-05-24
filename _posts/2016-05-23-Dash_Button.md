@@ -37,7 +37,7 @@ mac = sys.argv[1]
 
 <br/><br/>
 with open(config.json) as infile:<br/>
-    data = json.load(infile)
+    &nbsp;&nbsp;&nbsp;&nbsp;data = json.load(infile)
 <br/>
 infile.close()<br/>
 
