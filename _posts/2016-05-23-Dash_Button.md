@@ -6,10 +6,8 @@ comments: false
 categories: []
 ---
 <p>Last year, Amazon came out with a conveniently sized, Wi-Fi enabled button that will order a pre-selected product (from Amazon, of course) after a single press. The buttons were even bargain priced at right around 5 dollars. Immediately, people began trying to hack the little device and repurpose the button pushes for everything from <a href="https://medium.com/@brody_berson/hacking-amazon-s-5-dash-button-to-order-domino-s-pizza-9d19c9d04646#.6ahvngcee">ordering a pizza</a> to
-<a href="https://medium.com/@edwardbenson/how-i-hacked-amazon-s-5-wifi-button-to-track-baby-data-794214b0bdd8#.4md9unrdn"> logging the number of times their baby needed changed.</a> 
-<br/>
+<a href="https://medium.com/@edwardbenson/how-i-hacked-amazon-s-5-wifi-button-to-track-baby-data-794214b0bdd8#.4md9unrdn"> logging the number of times their baby needed changed.</a>
 <img src="/images/2016/dash_button_1.png" alt="dash" />
-<br/>
 Most of the aforementioned methods rely on monitoring network traffic, and reacting when the mac address of the desired button shows up in an ARP probe. This is where I started, but I was not entirely happy with the amount of resources required for constant monitoring. This is when I stumbled upon dnsmasq and the dhcp_script method, and I designed my solution around that. 
 <br/><br/>
 First, I wanted to establish a separate network for my Dash Buttons to connect to. I followed this wonderful <a href="https://frillip.com/using-your-raspberry-pi-3-as-a-wifi-access-point-with-hostapd/">tutorial</a>. While it was specifically written for the Raspberry Pi 3 onboard Wi-Fi, it will still work with the latest distro of Raspian on any Pi, and most new USB Wi-Fi adapters should use the same driver. 
