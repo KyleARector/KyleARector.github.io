@@ -48,7 +48,7 @@ sudo hamachi attach hello@yoursite.com
 <br/><br/>
 After sending the attach request, sign into the LogMeIn site. Click on "My Networks" under the "Networks" header, and create a new network if you do not already have one set up. My personal favorite is a mesh network, as there is no master node that has to be online for the rest to connect to one another. At the top of the networks page, you should see a pending join request. Verify that it is from the device type and nickname that you set, and approve it. The Raspberry Pi can now be assigned to any of your networks.
 <br/><br/>
-Hamachi does not start automatically after restarting or powering on the Pi, but can be started manually by running the hamachi login command. Alternatively, Hamachi can be added as a service that runs at startup buy running:
+Hamachi does not start automatically after restarting or powering on the Pi, but can be started manually by running the hamachi login command. Alternatively, Hamachi can be added as a service that runs at startup by running:
 <br/><br/>
 <code>
 sudo update-rc.d logmein-hamachi defaults
