@@ -6,7 +6,7 @@ comments: false
 categories: []
 ---
 <p>
-When I was in college, a <a href="http://mbmccormick.com/">friend</a> of mine set up a mesh VPN network for a group of us to share files over. We used the free tier of LogMeIn’s VPN service, Hamachi. At the time, I did not realize how useful VPN was. Fast forward to today, and I still use Hamachi to network a few machines at home, and one at work.
+When I was in college, a <a href="http://mbmccormick.com/">friend</a> of mine set up a mesh VPN network for a group of us to share files over. We used the free tier of the LogMeIn VPN service, Hamachi. At the time, I did not realize how useful VPN was. Fast forward to today, and I still use Hamachi to network a few machines at home, and one at work.
 <br/><br/>
 As part of my recent fascination with building a Raspberry Pi powered Smart Home, I wanted to be able to access the system securely, and without having to set up port forwarding and exposing the Pi to the internet at large. Hamachi provides a great solution to this, has desktop clients to connect Macs and PCs, and even has methods for generating VPN profiles for tablets and mobile phones. The following is how I set up Hamachi on my Raspberry Pi 3 (or 2) running Raspian Jessie:
 <br/><br/>
