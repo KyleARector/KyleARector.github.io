@@ -53,6 +53,6 @@ Hamachi does not start automatically after restarting or powering on the Pi, but
 <code>
 sudo update-rc.d logmein-hamachi defaults
 </code>
-<br/>
+<br/><br/>
 Now, you have a secure, low power network node that you can access from anywhere. Some possible applications include a Smart Home controller (I am biased), or a media server.
 </p>
