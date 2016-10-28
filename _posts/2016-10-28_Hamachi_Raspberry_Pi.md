@@ -10,13 +10,13 @@ When I was in college, a <a href="http://mbmccormick.com/">friend</a> of mine se
 <br/><br/>
 As part of my recent fascination with building a Raspberry Pi powered Smart Home, I wanted to be able to access the system securely, and without having to set up port forwarding and exposing the Pi to the internet at large. Hamachi provides a great solution to this, has desktop clients to connect Macs and PCs, and even has methods for generating VPN profiles for tablets and mobile phones. The following is how I set up Hamachi on my Raspberry Pi 3 (or 2) running Raspian Jessie:
 <br/><br/>
-First, create a free <a href=“https://secure.logmein.com/home”>LogMeIn</a> account, if you do not already have one. Update Raspian with <code>sudo apt-get update</code>, then <code>sudo-apt get upgrade</code>. Next, install the Linux Standard Base and Core components by running:
+First, create a free <a href="https://secure.logmein.com/home">LogMeIn</a> account, if you do not already have one. Update Raspian with <code>sudo apt-get update</code>, then <code>sudo-apt get upgrade</code>. Next, install the Linux Standard Base and Core components by running:
 <br/><br/>
 <code>
 sudo apt-get install lsb lsb-core
 </code>
 <br/>
-Once that is complete, navigate to the <a href=“https://www.vpn.net/linux”>Hamachi for Linux page</a>. Under the header "Hamachi for Linux on ARM" locate the most recent ARM HF Debian package. At the time of writing, the most recent available is "logmein-hamachi_2.1.0.165-1_armhf.deb." Grab the package from the Hamachi site with:
+Once that is complete, navigate to the <a href="https://www.vpn.net/linux">Hamachi for Linux page</a>. Under the header "Hamachi for Linux on ARM" locate the most recent ARM HF Debian package. At the time of writing, the most recent available is "logmein-hamachi_2.1.0.165-1_armhf.deb." Grab the package from the Hamachi site with:
 <br/><br/>
 <code>
 sudo wget https://www.vpn.net/installers/logmein-hamachi_2.1.0.165-1_armhf.deb
