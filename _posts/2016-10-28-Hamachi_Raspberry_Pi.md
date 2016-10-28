@@ -15,37 +15,37 @@ First, create a free <a href="https://secure.logmein.com/home">LogMeIn</a> accou
 <code>
 sudo apt-get install lsb lsb-core
 </code>
-<br/>
+<br/><br/>
 Once that is complete, navigate to the <a href="https://www.vpn.net/linux">Hamachi for Linux page</a>. Under the header "Hamachi for Linux on ARM" locate the most recent ARM HF Debian package. At the time of writing, the most recent available is "logmein-hamachi_2.1.0.165-1_armhf.deb." Grab the package from the Hamachi site with:
 <br/><br/>
 <code>
 sudo wget https://www.vpn.net/installers/logmein-hamachi_2.1.0.165-1_armhf.deb
 </code>
-<br/>
+<br/><br/>
 Next install the package by running:
 <br/><br/>
 <code>
 sudo dpkg -i logmein-hamachi_2.1.0.165-1_armhf.deb
 </code>
-<br/>
+<br/><br/>
 Once everything is installed, log into Hamachi:
 <br/><br/>
 <code>
 sudo hamachi login
 </code>
-<br/>
+<br/><br/>
 After getting the "ok" from the login process, tell Hamachi what to call the system by running the following command, putting your desired name inside the quotes:
 <br/><br/>
 <code>
 sudo hamachi set-nick "YourNameHere"
 </code>
-<br/>
+<br/><br/>
 Next, attach the system to your LogMeIn account by running the following, replacing the placeholder with your email address:
 <br/><br/>
 <code>
 sudo hamachi attach hello@yoursite.com
 </code>
-<br/>
+<br/><br/>
 After sending the attach request, sign into the LogMeIn site. Click on "My Networks" under the "Networks" header, and create a new network if you do not already have one set up. My personal favorite is a mesh network, as there is no master node that has to be online for the rest to connect to one another. At the top of the networks page, you should see a pending join request. Verify that it is from the device type and nickname that you set, and approve it. The Raspberry Pi can now be assigned to any of your networks.
 <br/><br/>
 Hamachi does not start automatically after restarting or powering on the Pi, but can be started manually by running the hamachi login command. Alternatively, Hamachi can be added as a service that runs at startup buy running:
