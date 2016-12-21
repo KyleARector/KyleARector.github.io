@@ -1,5 +1,5 @@
 User-agent: *
 Disallow: /css
-Disallow: /images
+Disallow: /img
 Disallow: /js
 Disallow: /404.html
