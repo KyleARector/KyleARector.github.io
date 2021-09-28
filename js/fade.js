@@ -9,7 +9,7 @@ function loadFade() {
     document.getElementById("name-header").style.opacity = 1
     setTimeout(() => {document.getElementById("subtitle-header").style.opacity = 1}, 750)
 
-    let timeout = 2500
+    let timeout = 2000
     for (const linkId of linkIds) {
         timeout += 250
         setTimeout(() => {document.getElementById(linkId).style.opacity = 1}, timeout)
