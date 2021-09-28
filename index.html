@@ -16,17 +16,17 @@
             ga('create', 'UA-59815038-1', 'auto');
             ga('send', 'pageview');
         </script>
+        <script src="js/fade.js"></script>
     </head>
-    <body>
+    <body onload="loadFade()">
         <div class="wrapper">
-            <img src="img/Logo.png" alt="logo" class="logo"/>
-            <h1>Kyle Andrew Rector</h1>
-            <h2>CAD and Code</h2>
-            <div class="img_wrapper">
-                <a target="_blank" href="https://github.com/KyleARector"><img src="img/github.png" alt="github" class="link_img"/></a>
-                <a target="_blank" href="https://twitter.com/KyleARector"><img src="img/twitter.png" alt="twitter" class="link_img"/></a>
-                <a target="_blank" href="https://hackaday.io/KyleARector"><img src="img/hackaday.png" alt="hackaday" class="link_img"/></a>
-                <a target="_blank" href="https://www.linkedin.com/in/kylearector"><img src="img/linkedin.png" alt="linkedin" class="link_img"/></a>
+            <h1 class="fadable" id="name-header">Kyle Andrew Rector</h1>
+            <h2 class="fadable" id="subtitle-header">@KyleARector</h2>
+            <div class="fadable links" id="links">
+                <a target="_blank" href="https://github.com/KyleARector"><h3>GitHub</h3></a>
+                <a target="_blank" href="https://twitter.com/KyleARector"><h3>Twitter</h3></a>
+                <a target="_blank" href="https://hackaday.io/KyleARector"><h3>Hackaday</h3></a>
+                <a target="_blank" href="https://www.linkedin.com/in/kylearector"><h3>LinkedIn</h3></a>
             </div>
         </div>
     </body>
